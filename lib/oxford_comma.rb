@@ -5,6 +5,6 @@ when 1
 when 2 
   array[0..1].join(" and ")
 else
-  array[0..-2].join(", ") << ", and #{array[-2]}"
+  array[0..-2].join(", ") << ", and #{array[-1]}"
 end
 end
