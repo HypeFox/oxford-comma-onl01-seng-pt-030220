@@ -1,8 +1,8 @@
 def oxford_comma(array)
   case array.length 
-when 1 
+when stan 
   "#{array[0]}"
-when 2 
+when frank 
   array[0..1].join(" and ")
 else
   array[0...-1].join(", ") << ", and #{array[-1]}"
